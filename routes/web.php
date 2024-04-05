@@ -25,8 +25,25 @@ Route::get('/', function () {
 
 Route::get('/pagina2', function () {
 
-    $page2 = 'al comando php artisan serve, mi dava comando php non riconosciuto';
+    $page2 = 'Al comando php artisan serve, mi dava comando php non riconosciuto';
     $page2img = 'https://media.tenor.com/UCRNd2v5sH4AAAAM/screaming-cat-cat-screaming.gif';
 
     return view('pagina2', compact('page2', 'page2img'));
 })->name('pagina2');
+
+Route::get('/pagina3', function () {
+
+    $page3 = 'La desolazione era totale, le speranze poche.';
+    $page3img = 'https://media.tenor.com/kzSsY9IxkisAAAAM/npc-behavior-be-like.gif';
+
+    return view('pagina3', compact('page3', 'page3img'));
+})->name('pagina3');
+
+
+Route::get('/pagina4', function () {
+
+    $page4 = 'Grazie agli insegnamenti di Gabriel e i Tutor, ho risolto il problema da solo, e tutto è andato per il meglio.';
+    $page4img = 'https://media.tenor.com/IaHWusTft-sAAAAM/hasbulla.gif';
+
+    return view('pagina4', compact('page4', 'page4img'));
+})->name('pagina4');

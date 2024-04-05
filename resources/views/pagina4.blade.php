@@ -21,10 +21,10 @@
 <body data-bs-theme="dark">
     <div class=" d-flex flex-column align-items-center m-5">
         <div class="card" style="width: 18rem;">
-            <img src="{{ $page2img }}" class="card-img-top" alt="...">
+            <img src="{{ $page4img }}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">{{ $page2 }}</h5>
-                <a href="{{ route('pagina3') }}" class="btn btn-primary">Procedi</a>
+                <h5 class="card-title">{{ $page4 }}</h5>
+                <a href="{{ route('pagina5') }}" class="btn btn-primary">Procedi</a>
             </div>
         </div>
 
