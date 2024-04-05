@@ -20,7 +20,7 @@
 
 <body data-bs-theme="dark">
     <div class=" d-flex flex-column align-items-center m-5">
-        <h1 class=" text-danger ">CON IL LIETO FINE,</h1>
+        <h1 class=" text-success ">CON IL LIETO FINE,</h1>
         <h2 class=" text-warning pb-5">Per fortuna</h2>
         <div class="card" style="width: 18rem;">
             <img src="{{ $page5img }}" class="card-img-top" alt="...">
