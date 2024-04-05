@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 
     return view('home', compact('page1', 'page1img'));
-});
+})->name('home');
 
 
 Route::get('/pagina2', function () {
@@ -47,3 +47,11 @@ Route::get('/pagina4', function () {
 
     return view('pagina4', compact('page4', 'page4img'));
 })->name('pagina4');
+
+Route::get('/pagina5', function () {
+
+    $page5 = 'E fu così che il giovane programmatore, riuscì ad allungare il weekend ai tutors.';
+    $page5img = 'https://media.tenor.com/uGbqem-2mKEAAAAM/hello-selam.gif';
+
+    return view('pagina5', compact('page5', 'page5img',));
+})->name('pagina5');
